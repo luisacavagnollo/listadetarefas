@@ -35,15 +35,27 @@ body, html {
   & button:hover {
     opacity: 0.8;
   }
-
-  & input {
+  & input[type="date"] {
     border: 1px solid #48456c;
     border-radius: 30px;
     height: 40px;
     background-color: #302f49;
     color: white;
     font-size: 16px;
-}}
+    padding-right: 15px;
+    padding-left: 15px;
+}
+  & input[type="text"] { 
+    border: 1px solid #48456c;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #302f49;
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+    }
+ }
+
 ul {
   width: 90%;
   max-width: 500px;
@@ -85,3 +97,11 @@ ul {
   display: flex;
   gap: 10px;
 }
+
+.listinha {
+  background-color: #48456c;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+

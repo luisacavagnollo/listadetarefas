@@ -94,7 +94,7 @@ function App() {
               </>
             ) : (
               <>
-                <span>
+                <span className="listinha">
                   {tarefa.texto} - {tarefa.data}
                 </span>
 
